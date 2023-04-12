@@ -1,0 +1,100 @@
+/* Global styles */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+    background-image: url(C:\\Users\\Harshkumarbalaji\\OneDrive\\Desktop\\cheproject\\you.jpg);
+}
+img {
+    display: block;
+    margin: auto;
+    max-width: 1000px;
+    height: 400px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+body {
+	background-color: #f5f5f5;
+	color: #333;
+}
+
+header {
+	background-color: #005a8d;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 2.5em;
+	margin-bottom: 10px;
+}
+
+nav {
+	background-color: #003955;
+	color: #fff;
+	padding: 10px;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+
+nav ul li {
+	margin: 0 10px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.2em;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+}
+
+main {
+	padding: 20px;
+}
+
+section {
+	margin-bottom: 20px;
+	border: 1px solid #ddd;
+	padding: 20px;
+}
+
+h2 {
+	font-size: 1.8em;
+	margin-bottom: 10px;
+}
+
+ul {
+	margin-bottom: 10px;
+}
+
+ul li {
+	margin-left: 20px;
+	margin-bottom: 5px;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 768px) {
+	h1 {
+		font-size: 2em;
+	}
+	
+	nav ul li {
+		margin: 0 5px;
+	}
+	
+	nav ul li a {
+		font-size: 1em;
+	}
+}
